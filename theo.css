@@ -1,0 +1,156 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image:url('Images/bg.2.jpg');
+  color: #222;
+}
+
+/* Navigation */
+nav {
+  background: #111;
+  color:green;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  color: gold;
+  font-size: 42px;
+  font-weight:normal;
+  font-family: Algerian;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  
+  transition: .3s;
+}
+
+nav ul li a:hover {
+  color: #f0b400;
+}
+
+/* Header */
+.header {
+  height: 420px;
+  background: url('images/banner.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 46px;
+  background: rgba(0,0,0,0.6);
+  padding: 20px 40px;
+  border-radius: 6px;
+}
+
+/* Shop Grid */
+.shop-container {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.product {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.product h3 {
+  margin: 10px 0;
+}
+
+.product button {
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.product button:hover {
+  background: #f0b400;
+}
+
+/* About & Contact */
+.section {
+  color: aqua;
+  padding: 50px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Contact Form */
+form input, form textarea {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+form button {
+  background: #111;
+  color: silver;
+  padding: 12px 25px;
+  cursor: pointer;
+  border: none;
+  transition: .3s;
+}
+
+form button:hover {
+  background: #f0b400;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
